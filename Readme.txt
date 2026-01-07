@@ -1,6 +1,20 @@
-Thanks for downloading this template!
+# Bienvenido a mi Portfolio 🚀
+Este es mi primer proyecto en GitHub.
+## 👤 Autor
+**Jose Conesa Nicolas**
+## 📚 Tecnologías usadas
+- HTML
+- CSS
+- Bootstrap
+- Markdown
 
-Template Name: Personal
-Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+## 📁 Estructura del repositorio
+pagina-bienvenida
+
+┣ 📄 index.html
+
+┣ 📄 style.css
+
+┗ 📄 README.md
+
+https://peperigores.github.io/Portfolio-Pepe/
