@@ -1,20 +1,28 @@
-# Bienvenido a mi Portfolio 🚀
-Este es mi primer proyecto en GitHub.
+# Bienvenido a mi Portfolio ⬇️
+Este es la primera versión de mi PortFolio en GitHub.
+Adaptación de una plantilla Bootstrap
+
 ## 👤 Autor
 **Jose Conesa Nicolas**
-## 📚 Tecnologías usadas
+## 📚 Tecnologías:
 - HTML
 - CSS
+- JavaScript
 - Bootstrap
 - Markdown
 
-## 📁 Estructura del repositorio
-pagina-bienvenida
+## 📁 Estructura:
 
-┣ 📄 index.html
+┣ 📄 Home
 
-┣ 📄 style.css
+┣ 📄 Sobre mí
 
-┗ 📄 README.md
+┣ 📄 C.V
+
+┣ 📄 Servicios
+
+┣ 📄 PortFolio
+
+┗ 📄 Contacto
 
 https://peperigores.github.io/Portfolio-Pepe/
