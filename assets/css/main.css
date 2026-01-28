@@ -161,7 +161,7 @@ h6 {
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-size: 32px;  
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
@@ -588,13 +588,19 @@ h6 {
 }
 
 .page-title .heading {
-  padding: 160px 0 80px 0;
+  background-image: url(/assets/img/brick-wall.png);
+  padding: 150px 0 80px 0;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .page-title .heading h1 {
-  font-size: 38px;
+  font-size: 42px;
   font-weight: 700;
+  color: yellow;
+}
+
+.page-title .heading p{
+  font-size: 18px;
 }
 
 .page-title nav {
