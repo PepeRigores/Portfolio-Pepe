@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Contact - Personal Bootstrap Template</title>
-  <meta name="description" content="">
+  <title>Contacto - Jose Conesa</title>
+  <meta name="description" content="Página de contacto de Jose Conesa. Envía un mensaje para colaboraciones o consultas.">
   <meta name="keywords" content="">
 
   <!-- Favicons -->
@@ -30,6 +30,8 @@
 
 <body class="contact-page">
 
+  <a href="#main" class="skip-link">Saltar al contenido principal</a>
+
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
@@ -51,7 +53,7 @@
     </div>
   </header>
 
-  <main class="main">
+  <main class="main" id="main">
 
     <!-- Page Title -->
     <div class="page-title" data-aos="fade">
@@ -132,19 +134,19 @@
           <div class="row gy-4">
 
             <div class="col-md-6">
-              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" aria-label="Nombre" required="">
             </div>
 
             <div class="col-md-6">
-              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+              <input type="email" class="form-control" name="email" placeholder="Your Email" aria-label="Correo electrónico" required="">
             </div>
 
             <div class="col-md-12">
-              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+              <input type="text" class="form-control" name="subject" placeholder="Subject" aria-label="Asunto" required="">
             </div>
 
             <div class="col-md-12">
-              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+              <textarea class="form-control" name="message" rows="6" placeholder="Message" aria-label="Mensaje" required=""></textarea>
             </div>
 
             <div class="col-md-12 text-center">

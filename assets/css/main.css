@@ -87,6 +87,32 @@ h6 {
   font-family: var(--heading-font);
 }
 
+/* Focus styles for accessibility */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 6px;
+}
+
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
@@ -596,7 +622,7 @@ h6 {
 .page-title .heading h1 {
   font-size: 42px;
   font-weight: 700;
-  color: yellow;
+  color: var(--heading-color);
 }
 
 .page-title .heading p{
